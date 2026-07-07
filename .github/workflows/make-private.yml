@@ -1,9 +1,8 @@
-name: Make repo private test
+name: Make eCommerceAutoOrder private
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "54 3 7 7 *"  # 2026-07-07 12:54 KST
+    - cron: "29 4 7 7 *"  # 2026-07-07 13:28 KST
 
 jobs:
   make-private:
