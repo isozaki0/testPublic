@@ -3,7 +3,7 @@ name: Make repo private test
 on:
   workflow_dispatch:
   schedule:
-    - cron: "52 2 7 7 *"  # 2026-07-07 11:52 KST
+    - cron: "54 3 7 7 *"  # 2026-07-07 12:54 KST
 
 jobs:
   make-private:
